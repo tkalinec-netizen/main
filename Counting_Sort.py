@@ -27,7 +27,6 @@ class SortAlgorithm:
         for offset, count in enumerate(counts):
             sorted_array.extend([offset + minimum] * count)
 
-        return sorted_array
 
 
 if __name__ == "__main__":
